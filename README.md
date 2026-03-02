@@ -107,4 +107,4 @@ win.loadURL(isDev ? 'http://localhost:5173' : ...);
 - **Database:** MongoDB.
 - **Authentication:** JWT & Bcrypt.
 
----# PUSL3122-HCI-Group-25-
+
