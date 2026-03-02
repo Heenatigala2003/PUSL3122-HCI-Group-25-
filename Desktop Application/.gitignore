@@ -1,0 +1,27 @@
+# Node modules
+node_modules/
+*/node_modules/
+
+# Environment variables
+.env
+server/.env
+client/.env
+
+# Build folders
+dist/
+build/
+electron/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Package lock (optional - keep if required by university)
+# package-lock.json

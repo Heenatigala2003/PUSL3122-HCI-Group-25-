@@ -1,0 +1,21 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "wait-on http://localhost:3000 && electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^40.6.0"
+  },
+  "dependencies": {
+    "electron-is-dev": "^3.0.1",
+    "wait-on": "^9.0.4"
+  }
+}
