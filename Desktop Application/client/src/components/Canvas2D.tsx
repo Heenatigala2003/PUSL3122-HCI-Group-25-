@@ -87,10 +87,10 @@ const Canvas2D = ({
   const gridLines = [];
   if (snapEnabled) {
     for (let x = 0; x <= canvasWidth; x += GRID_SIZE) {
-      gridLines.push(<Line key={`v-${x}`} points={[x, 0, x, canvasHeight]} stroke="#334155" strokeWidth={0.5}  opacity={0.35} />);
+      gridLines.push(<Line key={`v-${x}`} points={[x, 0, x, canvasHeight]} stroke="#334155" strokeWidth={0.8}  opacity={0.35} />);
     }
     for (let y = 0; y <= canvasHeight; y += GRID_SIZE) {
-      gridLines.push(<Line key={`h-${y}`} points={[0, y, canvasWidth, y]} stroke="#334155" strokeWidth={0.5} opacity={0.35} />);
+      gridLines.push(<Line key={`h-${y}`} points={[0, y, canvasWidth, y]} stroke="#334155" strokeWidth={0.8} opacity={0.35} />);
     }
   }
 
