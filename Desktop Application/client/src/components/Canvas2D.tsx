@@ -154,7 +154,7 @@ const Canvas2D = ({
                     fill="transparent"
                     stroke="#0ea5e9"
                     strokeWidth={2}
-                    dash={[6, 3]}
+                    dash={[8, 4]}
                     cornerRadius={7}
                   />
                 )}
