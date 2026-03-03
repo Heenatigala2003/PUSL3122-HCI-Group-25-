@@ -45,5 +45,5 @@ const DB = process.env.DATABASE || 'mongodb+srv://HCI:1212@cluster0.j787j1z.mong
 mongoose.connect(DB).then(() => console.log('✅ DB connection successful!'));
 
 app.listen(PORT, () => {
-  console.log(`🚀 FurniForge server running on port ${PORT}`);
+  console.log(`🚀 FurniForge server running successfully on port ${PORT}`);
 });
