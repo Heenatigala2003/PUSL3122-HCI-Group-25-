@@ -107,4 +107,4 @@ win.loadURL(isDev ? 'http://localhost:5173' : ...);
 - **Database:** MongoDB.
 - **Authentication:** JWT & Bcrypt.
 
----
+
