@@ -1,14 +1,14 @@
-# 🏠 FurniForge - AI-Powered 3D Interior Design Engine
+ FurniForge - AI-Powered 3D Interior Design Engine
 
 FurniForge is a modern web application that allows users to design 2D floor plans and instantly transform them into photorealistic 3D environments. It features a robust material system, dynamic lighting, walkthrough modes, and Augmented Reality (AR) viewing.
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 Follow these steps to set up and run the project locally on your machine.
 
-### 📋 Prerequisites
+###  Prerequisites
 
 Ensure you have the following installed:
 - [Node.js](https://nodejs.org/) (v16 or higher)
@@ -17,7 +17,7 @@ Ensure you have the following installed:
 
 ---
 
-## 🛠️ Installation & Setup
+##  Installation & Setup
 
 ### 1. Clone the Repository
 ```bash
@@ -50,7 +50,7 @@ npm install
 
 ---
 
-## 🏃‍♂️ Running the Application
+##  Running the Application
 
 You need to run **both** the server and the client simultaneously.
 
@@ -80,7 +80,7 @@ npm run dev
 
 ---
 
-## 🖥️ Electron Configuration Note
+##  Electron Configuration Note
 The Desktop app is configured to load the frontend from `http://localhost:3000` by default in development mode. If your Vite client is running on another port (like `5173`), please update `electron/main.js` accordingly:
 ```javascript
 // Inside electron/main.js
@@ -89,7 +89,7 @@ win.loadURL(isDev ? 'http://localhost:5173' : ...);
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 - **2D/3D Instant Toggle:** Design in 2D and view in 3D in one click.
 - **Material Customization:** Apply Wood, Metal, or Fabric textures to furniture.
@@ -100,7 +100,7 @@ win.loadURL(isDev ? 'http://localhost:5173' : ...);
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend:** React 19, Three.js, React Three Fiber, Tailwind CSS.
 - **Backend:** Node.js, Express.js.
