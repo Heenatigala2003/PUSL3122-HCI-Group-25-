@@ -14,7 +14,8 @@ const designSchema = new mongoose.Schema({
     width: Number,
     height: Number,
     shape: { type: String, enum: ['rectangular', 'l-shaped'], default: 'rectangular' },
-    color: String
+    color: String,
+    description: { type: String, default: "" } 
   },
   furniture: [{
     id: { type: String },

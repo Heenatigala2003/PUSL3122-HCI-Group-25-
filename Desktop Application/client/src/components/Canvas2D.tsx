@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+dimport React, { useState, useCallback } from 'react';
 import { Stage, Layer, Rect, Text, Group, Circle, Line } from 'react-konva';
 
 export interface Furniture {
@@ -87,10 +87,10 @@ const Canvas2D = ({
   const gridLines = [];
   if (snapEnabled) {
     for (let x = 0; x <= canvasWidth; x += GRID_SIZE) {
-      gridLines.push(<Line key={`v-${x}`} points={[x, 0, x, canvasHeight]} stroke="#334155" strokeWidth={0.5} />);
+      gridLines.push(<Line key={`v-${x}`} points={[x, 0, x, canvasHeight]} stroke="#334155" strokeWidth={0.8}  opacity={0.35} />);
     }
     for (let y = 0; y <= canvasHeight; y += GRID_SIZE) {
-      gridLines.push(<Line key={`h-${y}`} points={[0, y, canvasWidth, y]} stroke="#334155" strokeWidth={0.5} />);
+      gridLines.push(<Line key={`h-${y}`} points={[0, y, canvasWidth, y]} stroke="#334155" strokeWidth={0.8} opacity={0.35} />);
     }
   }
 
@@ -154,7 +154,7 @@ const Canvas2D = ({
                     fill="transparent"
                     stroke="#0ea5e9"
                     strokeWidth={2}
-                    dash={[6, 3]}
+                    dash={[8, 4]}
                     cornerRadius={7}
                   />
                 )}
@@ -177,7 +177,7 @@ const Canvas2D = ({
                     key={key}
                     x={cx}
                     y={cy}
-                    radius={6}
+                    radius={7}
                     fill="#0ea5e9"
                     stroke="#fff"
                     strokeWidth={1.5}
