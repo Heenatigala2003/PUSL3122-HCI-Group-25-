@@ -321,7 +321,7 @@ const CameraController = ({ isFirstPerson }: { isFirstPerson: boolean }) => {
         controlsRef.current.target.set(0, 1.65, -2);
         controlsRef.current.maxPolarAngle = Math.PI / 2 + 0.15; // Limit looking up/down too much
         controlsRef.current.minPolarAngle = Math.PI / 2 - 0.3;
-        controlsRef.current.minDistance = 0.6;
+        controlsRef.current.minDistance = 0.5;
         controlsRef.current.maxDistance = 15;
       }
     } else {
