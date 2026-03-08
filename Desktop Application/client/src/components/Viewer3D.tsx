@@ -316,7 +316,7 @@ const CameraController = ({ isFirstPerson }: { isFirstPerson: boolean }) => {
   React.useEffect(() => {
     if (isFirstPerson) {
       // Set to eye level inside the room
-      camera.position.set(0, 1.6, 2.5);
+      camera.position.set(0, 1.65, 2.5);
       if (controlsRef.current) {
         controlsRef.current.target.set(0, 1.6, -2);
         controlsRef.current.maxPolarAngle = Math.PI / 2 + 0.15; // Limit looking up/down too much
