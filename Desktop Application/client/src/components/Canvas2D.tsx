@@ -1,4 +1,4 @@
-dimport React, { useState, useCallback } from 'react';
+import React, { useState, useCallback } from 'react';
 import { Stage, Layer, Rect, Text, Group, Circle, Line } from 'react-konva';
 
 export interface Furniture {
